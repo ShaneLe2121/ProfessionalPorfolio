@@ -14,7 +14,7 @@ body {
 
 h1 {
     display: flex;
-    justify-content:;
+    justify-content:center;
     padding-right: 5px;
     padding-left: 5px;
     background-color: yellow;
@@ -29,7 +29,7 @@ h3 {
 
 #Shane {
     display: flex;
-
+    flex-direction: column;
     width: 50%;
     height: auto;
 }
@@ -51,16 +51,14 @@ a:visited {
     width: 50%;
     height: auto;
     display: flex;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    flex-direction:row-reverse;
 }
 
 #Homework {
     width: 50%;
     height: auto;
     display: flex;
-    justify-content: center;
+    flex-direction:row-reverse;
 }
 
 footer {
@@ -73,7 +71,7 @@ footer {
 
  nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 50px;
     flex-wrap: wrap;
 }
@@ -83,5 +81,32 @@ h2 {
 }
 
 li {
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Contact {
+    font-size: 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.content-section {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-section .col-left{
+    flex-basis: 33%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
